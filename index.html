@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Tour</title>
+  
+  <link rel="stylesheet" href="style.css">
+  
+  <script src="https://kit.fontawesome.com/e223062291.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  
+  <!-- Full header part with navbar-->
+  <header class="head">
+    
+    <!-- Full header part-->
+    <div class="top">
+      <i class="fas fa-bars" onclick="openNav()" id="menu"></i>
+      <h1>TRAVELZ</h1>
+    </div>
+    
+    <!-- Full navbar-->
+    <ul id="mySidenav">
+      <i class="fas fa-times" onclick="closeNav()" id="close"></i>
+      <li>
+        <a href="#Home"><h3>Home</h3></a>
+      </li>
+      <li>
+        <a href="#AboutUs"><h3>About</h3></a>
+      </li>
+      <li>
+        <a href="#Tour"><h3>Tours</h3></a>
+      </li>
+      <li>
+        <h3>Bookings</h3>
+      </li>
+      <li>
+        <h3>Contact</h3>
+      </li>
+    </ul>
+  </header>
+  
+  
+  <!-- section one (Home) -->
+  <section class="Home" id="Home">
+    <img src="img/goabeach1.jpg"/>
+    <p>“We travel not to escape life, but for life not to escape us.” – Unknown</p>
+  </section>
+  
+  
+  
+  <!-- section two (About Us) -->
+  <section class="About" id="AboutUs">
+    <br /><br /><br />
+    
+    <h2>ABOUT US</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+    <img src="img/color1.jpg" width="100%"/>
+  </section>
+ 
+ 
+ 
+ 
+ 
+ 
+  
+  <!----------Section Third (Tour)--------->
+  <section id="Tour" class="Tour">
+  <br /><br /><br />
+  
+  <h2>TOUR</h2>
+  
+  
+  
+  <!------ Section Third (Tour-Cities)------>
+  
+    <section class="Cities" id="Cities">
+      
+      <h3>Cities</h3><br />
+      
+      <!------------Less Cities-------------->
+      <section class="cities4">
+        <div class="city1">
+          <img src="img/Cities/NewDelhi1.jpg"/>
+          <h4>Delhi</h4>
+        </div>
+        
+        <div class="city2">
+          <img src="img/Cities/Mumbai1.jpg" />
+          <h4>Mumbai</h4>
+        </div>
+        
+        <div class="city3">
+          <img src="img/Cities/Jaipur1.jpg" />
+          <h4>Jaipur</h4>
+        </div>
+        
+        <div class="city4">
+          <img src="img/Cities/Agra.jpg" />
+          <h4>Agra</h4>
+        </div>
+      </section>
+      
+      <!-------------More Cities------------->
+      <section class="citiesRest" id="morecities">
+        <div class="city5">
+          <img src="img/Cities/Goa1.jpg" />
+          <h4>Goa</h4>
+        </div>
+        
+        <div class="city6">
+          <img src="img/Cities/Varanasi1.jpg" />
+          <h4>Varanasi</h4>
+        </div>
+        
+        <div class="city7">
+          <img src="img/Cities/Manali1.jpg" />
+          <h4>Manali</h4>
+        </div>
+        
+        <div class="city8">
+          <img src="img/Cities/Shimla1.jpg" />
+          <h4>Shimla</h4>
+        </div>
+        
+        <div class="city9">
+          <img src="img/Cities/Jaisalmer3.jpg" />
+          <h4>Jaisalmer</h4>
+        </div>
+        
+        <div class="city10">
+          <img src="img/Cities/Amritsar.jpg" />
+          <h4>Amritsar</h4>
+        </div>
+        
+        <div class="city11">
+          <img src="img/Cities/Rishikesh.jpg" />
+          <h4>Rishikesh</h4>
+        </div>
+        
+        <div class="city12">
+          <img src="img/Cities/Mysuru1.jpg" />
+          <h4>Mysuru</h4>
+        </div>
+      </section>
+      
+      
+      <!-------Load More/Less Buttons------->
+      <button type="submit" onclick="citiesMore()" id="loadmore">Load More</button>
+      
+      <button type="submit" onclick="citiesLess()" id="loadless">Load Less</button>
+      
+    </section>
+    
+    
+    
+  </section>
+  
+  
+  
+  
+  <section class="Sites">
+    
+    <h3>Tourist Sites</h3><br />
+    
+    <div class="Sites_container">
+      
+      <div class="Site_1">
+        <img src="img/Sites/TajMahal.jpg"/>
+        <div class="Sites_content">
+          <h4>Taj Mahal</h4>
+          <h5>Agra</h5>
+        </div>
+      </div>
+      
+      <div class="Site_2">
+        <img src="img/Sites/GoldenTemple.jpg" />
+        <div class="Sites_content">
+          <h4>Golden Temple</h4>
+          <h5>Amritsar</h5>
+        </div>
+      </div>
+      
+      <div class="Site_3">
+        <img src="img/Sites/IndiaGate.jpg" />
+        <div class="Sites_content">
+          <h4>India Gate</h4>
+          <h5>New Delhi</h5>
+        </div>
+      </div>
+      
+      <div class="Site_4">
+        <img src="img/Sites/GoaBeach.jpg" />
+        <div class="Sites_content">
+          <h4>Goa Beaches</h4>
+          <h5>Goa</h5>
+        </div>
+      </div>
+      
+      <div class="Site_5">
+        <img src="img/Sites/AmerFort.jpg" />
+        <div class="Sites_content">
+          <h4>Amer Fort</h4>
+          <h5>Jaipur</h5>
+        </div>
+      </div>
+      
+      <div class="Site_6">
+        <img src="img/Sites/GatewayOfIndia.jpg" />
+        <div class="Sites_content">
+          <h4>Gateway Of India</h4>
+          <h5>Mumbai</h5>
+        </div>
+      </div>
+      
+      <div class="Site_7">
+        <img src="img/Sites/BadaBagh.jpg" />
+        <div class="Sites_content">
+          <h4>Bada Bagh</h4>
+          <h5>Jaisalmer</h5>
+        </div>
+      </div>
+      
+      <div class="Site_8">
+        <img src="img/Sites/RedFort.jpg" />
+        <div class="Sites_content">
+          <h4>Red Fort</h4>
+          <h5>New Delhi</h5>
+        </div>
+      </div>
+      
+      <div class="Site_9">
+        <img src="img/Sites/MysorePalace.jpg" />
+        <div class="Sites_content">
+          <h4>Mysore Palace</h4>
+          <h5>Mysuru</h5>
+        </div>
+      </div>
+      
+      <div class="Site_10">
+        <img src="img/Sites/Varanasi.jpg" />
+        <div class="Sites_content">
+          <h4>Varanasi</h4>
+          <h5>Varanasi</h5>
+        </div>
+      </div>
+      
+      <div class="Site_11">
+        <img src="img/Sites/Periyar.jpg" />
+        <div class="Sites_content">
+          <h4>Periyar National Park</h4>
+          <h5>Periyar</h5>
+        </div>
+      </div>
+      
+      <div class="Site_11">
+        <img src="img/Sites/MehrangarhFort.jpg" />
+        <div class="Sites_content">
+          <h4>Mehrangarh Fort</h4>
+          <h5>Jodhpur</h5>
+        </div>
+      </div>
+      
+    </div>
+    
+  </section>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script type="text/javascript" charset="utf-8">
+  
+  
+/* Navbar Open And Close*/
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "200px";
+    document.getElementById("menu").style.display = "none";
+  }
+
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("menu").style.display = "";
+  }
+    
+  
+  /* Cities Load More And Load Less*/
+  document.getElementById("morecities").style.display = "none";
+  
+  document.getElementById("loadless").style.display = "none";
+  
+  function citiesMore() {
+    document.getElementById("morecities").style.display = "";
+    document.getElementById("loadmore").style.display = "none";
+    document.getElementById("loadless").style.display = "";
+  }
+  
+  function citiesLess() {
+   document.getElementById("morecities").style.display = "none";
+   document.getElementById("loadless").style.display = "none";
+   document.getElementById("loadmore").style.display = "";
+  }
+  
+  </script>
+  
+</body>
+</html>
